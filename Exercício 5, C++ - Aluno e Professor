@@ -44,13 +44,5 @@ int main() {
     // Criando um objeto da classe Professor
     Professor professor(45, "Maria");
 
-    // Imprimindo informações do Aluno
-    cout << aluno.getNome() << endl;
-    cout << "Idade: " << aluno.getIdade() << endl;
-
-    // Imprimindo informações do Professor
-    cout << professor.getNome() << endl;
-    cout << "Idade: " << professor.getIdade() << endl;
-
     return 0;
 }
