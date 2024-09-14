@@ -39,7 +39,7 @@ class Professor : public Pessoa {
 };
 int main() {
     // Criando um objeto da classe Aluno
-    Aluno aluno(20, "Carlos");
+    Aluno aluno(20, "Felipe");
 
     // Criando um objeto da classe Professor
     Professor professor(45, "Maria");
