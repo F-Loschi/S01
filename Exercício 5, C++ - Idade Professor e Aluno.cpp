@@ -45,7 +45,7 @@ class Professor : public Pessoa {
 };
 int main() {
     // Criando um objeto da classe Aluno
-    Aluno aluno(20, "Carlos", 601);
+    Aluno aluno(20, "Felipe", 601);
 
     // Criando um objeto da classe Professor
     Professor professor(45, "Maria");
@@ -53,6 +53,8 @@ int main() {
     // Imprimindo informações do Aluno
     cout << aluno.getNome() << endl;
     cout << "Idade: " << aluno.getIdade() << endl;
+
+    cout << endl;
 
     // Imprimindo informações do Professor
     cout << professor.getNome() << endl;
