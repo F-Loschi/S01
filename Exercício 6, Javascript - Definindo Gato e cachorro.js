@@ -37,8 +37,3 @@ class Gato extends Animal {
     this.cores.push(cor);
   }
 }
-
-const animal1 = new Animal('Tubarão', 105, 'Oviparo');
-animal1.printInfo();
-const cachorro1 = new Cachorro('DestruidorDeMundos', 31, 'Canino', 'Labrador');
-const gato1 = new Gato('Xaninha', 12, 'Felino', ['Branco', 'Cinza']);
